@@ -15,10 +15,15 @@
   -->
 
 <resources>
+	<!-- Orion night-mode colors -->
+	 <color name="system_primary_color">#21272b</color>
+	 <color name="system_secondary_color">#263238</color>
+	 <color name="system_accent_color">#80cbc4</color>
+	    
     <!-- Colors for the dialpad -->
-    <color name="dialer_theme_color">#606060</color>
-    <color name="dialer_theme_color_dark">#606060</color>
-    <color name="background_dialpad">@*android:color/material_grey_850</color>
+    <color name="dialer_theme_color">@color/system_secondary_color</color>
+    <color name="dialer_theme_color_dark">@color/system_secondary_color</color>
+    <color name="background_dialpad">@color/system_primary_color</color>
     <color name="background_dialpad_pressed">#ffececec</color>
     <color name="dialpad_primary_text_color">#b3ffffff</color>
     <color name="dialpad_secondary_text_color">#b3ffffff</color>
